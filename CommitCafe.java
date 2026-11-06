@@ -9,7 +9,7 @@ public class CommitCafe {
 
     public static void brew(String drink) {
         cups++;
-        System.out.println(barista + " is brewing " + drink + "!");
+        System.out.println(barista + " brewed " + drink + "!");
         System.out.println("Enjoy your " + drink + "!");
         System.out.println("[BOT CHECK] drink length = " + drink.length());
     }
